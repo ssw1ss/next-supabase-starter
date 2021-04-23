@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-5xl mx-auto;
+}
+.button {
+  @apply bg-blue-600 text-white py-2 px-3 rounded-md hover:bg-blue-700 transition-colors;
+}
